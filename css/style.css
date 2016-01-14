@@ -1,0 +1,62 @@
+/* Reset */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+html,body{
+height: 100%;
+}
+
+body{
+margin:0;
+padding:0;
+background:#fff;
+font-family:"Helvetica Neue",Helvetica, Arial;
+}
+
+div#shim{
+visibility: hidden;
+width: 100%;
+height: 30%;
+margin-top: -100px;
+float: left;
+}
+
+.logo {
+  text-align: center;
+}
+.content {
+  border-left: 1px solid #ccc;
+}
+h2{
+font-family: Georgia;
+color: #f16f24;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+ul.info{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+ul.info li{
+margin-bottom: 20px;
+clear: both;
+}
+
+ul.info li div.icon {
+width: 20px;
+float: left;
+}
+ul.info li div.text {
+float: left;
+padding-left: 5px;
+}
+
+@media (min-width:768px) {
+  .logo h1 img {
+    width: 100%;
+    text-align: center;
+  }
+}
